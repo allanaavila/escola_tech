@@ -38,25 +38,14 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 - Coleções Java: Utilização de List para armazenamento de alunos, turmas e notas.
 
   ### Estrutura do Projeto
-   ├── src
-   │   ├── controller
-   │   │   ├── ControllerAluno.java
-   │   │   ├── ControllerTurma.java
-   │   │   ├── ControllerNota.java
-   │   ├── model
-   │   │   ├── Aluno.java
-   │   │   ├── Contato.java
-   │   │   ├── Turma.java
-   │   │   ├── Nota.java
-   │   ├── util
-   │   │   └── Validacoes.java
-   │   ├── Main.java
-   ├── README.md
+├── src │ ├── controller │ │ ├── ControllerAluno.java │ │ ├── ControllerTurma.java │ │ ├── ControllerNota.java │ ├── model │ │ ├── Aluno.java │ │ ├── Contato.java │ │ ├── Turma.java │ │ ├── Nota.java │ ├── util │ │ └── Validacoes.java │ ├── Main.java ├── README.md
 
 
 ### Execução do Projeto
 ## Clone o repositório:
- - git clone https://github.com/seu-usuario/sistema-gestao-escolar-java.git
+ ```bash
+git clone https://github.com/seu-usuario/sistema-gestao-escolar-java.git
+```
    - Compile o projeto com o seu ambiente de desenvolvimento Java (Eclipse, IntelliJ, etc.).
    - Execute a classe Main.java para iniciar o sistema.
 
