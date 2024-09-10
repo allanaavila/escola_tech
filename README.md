@@ -38,7 +38,21 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 - Coleções Java: Utilização de List para armazenamento de alunos, turmas e notas.
 
   ### Estrutura do Projeto
-├── src │ ├── controller │ │ ├── ControllerAluno.java │ │ ├── ControllerTurma.java │ │ ├── ControllerNota.java │ ├── model │ │ ├── Aluno.java │ │ ├── Contato.java │ │ ├── Turma.java │ │ ├── Nota.java │ ├── util │ │ └── Validacoes.java │ ├── Main.java ├── README.md
+```plaintext
+├── src
+│   ├── controller
+│   │   ├── ControllerAluno.java
+│   │   ├── ControllerTurma.java
+│   │   ├── ControllerNota.java
+│   ├── model
+│   │   ├── Aluno.java
+│   │   ├── Contato.java
+│   │   ├── Turma.java
+│   │   ├── Nota.java
+│   ├── util
+│   │   └── Validacoes.java
+│   ├── Main.java
+├── README.md 
 
 
 ### Execução do Projeto
