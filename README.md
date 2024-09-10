@@ -12,6 +12,20 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 
 ## Funcionalidades
 
+### Menu Geral da Escola Tech
+     ```plaintext
+      ╔══════════════════════════════╗
+      ║       ESCOLA TECH            ║
+      ╠══════════════════════════════╣
+      ║  1 - Menu das Turmas         ║
+      ║  2 - Menu dos Alunos         ║
+      ║  3 - Lançar Notas            ║
+      ║  4 - Buscar Nota do Aluno    ║
+      ╠══════════════════════════════╣
+      ║  0 - Sair                    ║
+      ╚══════════════════════════════╝
+     ```
+
 ### 1. **Gerenciamento de Alunos**
    - Adicionar, detalhar, editar e excluir alunos.
    - Contatos são usados como classe pai, proporcionando uma base para a herança de classes específicas, como Aluno e Professor.
@@ -36,7 +50,7 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
    - Detalhamento de informações sobre turmas, incluindo alunos associados.
    - Modificação e exclusão de turmas, com tratamento de erros para dados inexistentes.
      
-      ** Menu de Cadastro de Alunos
+      ** Menu de Cadastro de Turmas
      ```plaintext
       ╔══════════════════════════════╗
       ║     CADASTRO DE TURMAS       ║
@@ -55,6 +69,21 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
    - Atribuição de notas aos alunos de cada turma.
    - Visualização de médias e distribuição de notas por aluno ou turma.
    - Edição e remoção de notas, com validação para garantir a consistência das informações.
+
+     ** Menu de Cadastro de Notas
+     ```plaintext
+      ╔══════════════════════════════╗
+      ║       LANÇAR NOTAS           ║
+      ╠══════════════════════════════╣
+      ║  1 - Adicionar Notas         ║
+      ║  2 - Detalhar Notas          ║
+      ║  3 - Alterar Notas           ║
+      ║  4 - Remover Notas           ║
+      ║  5 - Listar APROVADOS        ║
+      ╠══════════════════════════════╣
+      ║  0 - Menu Principal          ║
+      ╚══════════════════════════════╝
+     ```
 
 ### 4. **Listagem de Dados**
    - Listagem completa de contatos, turmas e notas.
