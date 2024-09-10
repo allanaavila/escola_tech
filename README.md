@@ -57,12 +57,11 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 
 ### Execução do Projeto
 ## Clone o repositório:
- ```bash
 git clone https://github.com/seu-usuario/sistema-gestao-escolar-java.git
-```
+
    - Compile o projeto com o seu ambiente de desenvolvimento Java (Eclipse, IntelliJ, etc.).
    - Execute a classe Main.java para iniciar o sistema.
-
+```
 
 ## Arquitetura do Projeto
 
