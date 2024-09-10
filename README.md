@@ -13,7 +13,7 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 ## Funcionalidades
 
 ### Menu Geral da Escola Tech
-     ```plaintext
+```plaintext
       ╔══════════════════════════════╗
       ║       ESCOLA TECH            ║
       ╠══════════════════════════════╣
@@ -24,7 +24,7 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
       ╠══════════════════════════════╣
       ║  0 - Sair                    ║
       ╚══════════════════════════════╝
-     ```
+ ```
 
 ### 1. **Gerenciamento de Alunos**
    - Adicionar, detalhar, editar e excluir alunos.
