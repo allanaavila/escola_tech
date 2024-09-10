@@ -12,15 +12,44 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 
 ## Funcionalidades
 
-### 1. **Gerenciamento de Contatos**
-   - Adicionar, detalhar, editar e excluir contatos.
+### 1. **Gerenciamento de Alunos**
+   - Adicionar, detalhar, editar e excluir alunos.
    - Contatos são usados como classe pai, proporcionando uma base para a herança de classes específicas, como Aluno e Professor.
    - Garantia de integridade dos dados com validação de duplicidade de números de telefone.
+     ** Menu de Cadastro de Alunos
+     ```plaintext
+      ╔══════════════════════════════╗
+      ║      CADASTRO DE ALUNOS      ║
+      ╠══════════════════════════════╣
+      ║  1 - Cadastrar Aluno         ║
+      ║  2 - Detalhar Aluno          ║
+      ║  3 - Alterar Aluno           ║
+      ║  4 - Remover Aluno           ║
+      ║  5 - Listar Alunos           ║
+      ╠══════════════════════════════╣
+      ║  0 - Menu Principal          ║
+      ╚══════════════════════════════╝
+     ```
 
 ### 2. **Gerenciamento de Turmas**
    - Adição de turmas, permitindo associar um conjunto de alunos a cada turma.
    - Detalhamento de informações sobre turmas, incluindo alunos associados.
    - Modificação e exclusão de turmas, com tratamento de erros para dados inexistentes.
+     
+      ** Menu de Cadastro de Alunos
+     ```plaintext
+      ╔══════════════════════════════╗
+      ║     CADASTRO DE TURMAS       ║
+      ╠══════════════════════════════╣
+      ║  1 - Cadastrar Turmas        ║
+      ║  2 - Detalhar Turmas         ║
+      ║  3 - Alterar Turmas          ║
+      ║  4 - Remover Turmas          ║
+      ║  5 - Listar Alunos por Turma ║
+      ╠══════════════════════════════╣
+      ║  0 - Menu Principal          ║
+      ╚══════════════════════════════╝
+     ```
 
 ### 3. **Gerenciamento de Notas**
    - Atribuição de notas aos alunos de cada turma.
@@ -37,7 +66,8 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 - Paradigma de Orientação a Objetos (POO): Implementado para gerenciar as entidades Aluno, Turma e Nota.
 - Coleções Java: Utilização de List para armazenamento de alunos, turmas e notas.
 
-  ### Estrutura do Projeto
+
+## Estrutura do Projeto
 ```plaintext
 ├── src
 │   ├── controller
