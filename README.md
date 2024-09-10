@@ -8,7 +8,7 @@ Utilizando princípios da programação orientada a objetos, o projeto adota uma
 
 
 ## Link do Repositório:
-[Repositório GitHub]()
+[Repositório GitHub](https://github.com/allanaavila/escola_tech.git)
 
 ## Funcionalidades
 
